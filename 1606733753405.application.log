@@ -1,0 +1,43 @@
+
+11:55:42 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:55:42 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:55:42 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:55:42 AM	click	// 
+	
+11:54:24 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:54:24 AM	log	{"label":"Top","type":"text","id":"1-top","value":"Ja alles gut"}	
+11:54:24 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title","value":"Es ist alles hervorragend"}	
+11:54:23 AM	POST =>	https://api.bruit.io/feedback/multipart/utf16	
+11:54:14 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:54:14 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:54:14 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:54:13 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:54:13 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:54:13 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:54:12 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:54:12 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:54:12 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:54:10 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:54:10 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:54:10 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:54:10 AM	click	// 
+	
+11:53:06 AM	log	{"label":"Top","type":"text","id":"1-top","value":"Alles gut"}	
+11:53:06 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:53:06 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title","value":"Ja"}	
+11:53:04 AM	POST =>	https://api.bruit.io/feedback/multipart/utf16	
+11:52:58 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:52:58 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:52:58 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:52:58 AM	click	// 
+	
+11:52:56 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:52:56 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:52:56 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:52:54 AM	POST =>	https://api.bruit.io/feedback/multipart/utf16	
+11:52:52 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:52:52 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:52:52 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:52:52 AM	click	// 
+	
+11:52:50 AM	url	https://bob.rewi.uni-mainz.de/ebis015/index.php	
