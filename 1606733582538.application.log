@@ -1,0 +1,7 @@
+
+11:52:52 AM	log	{"label":"JAAAAAAAAAAA","type":"text","id":"title"}	
+11:52:52 AM	log	{"label":"Top","type":"text","id":"1-top"}	
+11:52:52 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:52:52 AM	click	// 
+	
+11:52:50 AM	url	https://bob.rewi.uni-mainz.de/ebis015/index.php	
